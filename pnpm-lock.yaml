@@ -39,9 +39,6 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.0.6
         version: 4.0.6(vite@5.4.14(@types/node@20.17.19)(lightningcss@1.29.1))
-      '@trivago/prettier-plugin-sort-imports':
-        specifier: ^5.2.2
-        version: 5.2.2(prettier@3.5.1)
       '@types/node':
         specifier: ^20.17.19
         version: 20.17.19
@@ -4360,6 +4357,7 @@ snapshots:
       prettier: 3.5.1
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   '@types/cookie@0.6.0': {}
 
@@ -5636,7 +5634,8 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  javascript-natural-sort@0.7.1: {}
+  javascript-natural-sort@0.7.1:
+    optional: true
 
   jiti@2.4.2: {}
 
