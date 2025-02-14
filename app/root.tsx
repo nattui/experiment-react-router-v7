@@ -1,14 +1,14 @@
+import type { Route } from "./+types/root"
+import "./app.css"
 import type { PropsWithChildren } from "react"
 import {
-  isRouteErrorResponse,
   Links,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
+  isRouteErrorResponse,
 } from "react-router"
-import type { Route } from "./+types/root"
-import "./app.css"
 
 export const links: Route.LinksFunction = () => [
   { href: "https://fonts.googleapis.com", rel: "preconnect" },

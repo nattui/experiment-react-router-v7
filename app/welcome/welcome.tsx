@@ -1,10 +1,4 @@
 export function Welcome() {
-  const newPizza = "pizza"
-
-  function getPizza() {
-    return ""
-  }
-
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex min-h-0 flex-1 flex-col items-center gap-16">
