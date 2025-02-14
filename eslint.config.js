@@ -25,9 +25,13 @@ export default [
           allowInterfaces: "with-single-extends",
         },
       ],
-      "perfectionist/sort-exports": "off",
-      "perfectionist/sort-imports": "off",
-      "perfectionist/sort-named-imports": "off",
+      "perfectionist/sort-imports": [
+        "error",
+        {
+          newlinesBetween: "never",
+          sortSideEffects: true,
+        },
+      ],
       "react/react-in-jsx-scope": "off",
       "unicorn/consistent-function-scoping": "off",
       "unicorn/import-style": "off",
