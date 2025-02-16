@@ -1,3 +1,5 @@
+/** @type {import('eslint').Linter.Config[]} */
+
 import js from "@eslint/js"
 import perfectionist from "eslint-plugin-perfectionist"
 import react from "eslint-plugin-react"
@@ -5,8 +7,6 @@ import unicorn from "eslint-plugin-unicorn"
 import unused from "eslint-plugin-unused-imports"
 import globals from "globals"
 import ts from "typescript-eslint"
-
-/** @type {import('eslint').Linter.Config[]} */
 
 export default [
   ...ts.configs.recommended,
